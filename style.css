@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');:root{--pink:#df8ca8;--deep:#91445e;--pale:#fff0f4;--paper:#fffaf5;--rose:#bd5979}*{box-sizing:border-box}body{margin:0;color:#754456;font-family:'DM Sans',sans-serif;background:radial-gradient(circle at 18% 12%,#fffaf5,#f7dce5 52%,#eec4d2);min-height:100vh;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:22px 22px}.top{height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;letter-spacing:.22em;font-size:11px;color:#9c5268;position:relative;z-index:3}.music,.back{border:1px solid #d99aaf;background:#fff8f5;color:#8c4059;border-radius:30px;padding:10px 17px;cursor:pointer}.page{min-height:calc(100vh - 66px);position:relative;padding:45px 5vw 70px;display:flex;align-items:center;justify-content:center;flex-direction:column}.hidden{display:none!important}.hero{overflow:hidden;background:linear-gradient(#fff5f5aa,#f8dce5aa),url('assets/img/bg-flowers.webp') center/cover}.hero-card{z-index:2;text-align:center;padding:clamp(25px,4vw,55px);width:min(620px,92vw);background:#fff8f1ed;border:2px solid #e9b4c4;border-radius:28px;box-shadow:0 18px 60px #a84e6724}.eyebrow{font-size:10px;letter-spacing:.3em;color:#bd7187;font-weight:700}.hero h1,.section-head h2,.paper h2,.flower-copy h2,.cake-copy h2{font:600 clamp(40px,6vw,72px)/1.05 'Playfair Display',serif;color:#963f5b;margin:14px 0}.hero h1 em,.flower-copy h2 em,.cake-copy h2 em{font-family:Allura,cursive;font-size:1.3em;color:#d65d83;font-weight:400}.sub{font:40px Allura,cursive;color:#bd5676;margin:0}.intro{line-height:1.7;color:#875466}.count{display:flex;justify-content:center;gap:clamp(10px,3vw,30px);margin:24px auto 15px}.count div{display:grid;gap:5px;min-width:58px}.count b{font:600 30px 'Playfair Display';color:#963f5b}.count small{font-size:10px;letter-spacing:.12em;text-transform:uppercase}.unlock{font-size:13px;line-height:1.6}.pink-btn{border:0;border-radius:30px;padding:13px 28px;background:linear-gradient(135deg,#e88ba7,#c95478);color:white;font-weight:700;box-shadow:0 7px 18px #b64e6b44;cursor:pointer}.tiny{font-size:11px;color:#b27b8b;margin-bottom:0}.polaroid{background:#fffdf9;padding:10px 10px 0;box-shadow:0 12px 25px #77384a30;z-index:1;width:160px;transform:rotate(-8deg);animation:sway 6s ease-in-out infinite}.polaroid img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;background:#f4d6df}.polaroid figcaption{font:22px Allura,cursive;text-align:center;padding:8px 0 10px;color:#8d435b}.p-home{position:absolute}.p-a{left:7%;top:12%}.p-b{right:7%;top:16%;transform:rotate(8deg)}.section-head{text-align:center;max-width:800px}.section-head h2{font-size:clamp(34px,5vw,58px)}.section-head p:last-child{color:#986477}.gift-grid{display:grid;grid-template-columns:repeat(3,minmax(190px,250px));gap:25px;margin:30px auto}.gift{background:#fff9f5;border:1px solid #e9b3c1;border-radius:22px;padding:18px 16px 24px;color:#87465b;cursor:pointer;box-shadow:0 12px 34px #9b4e6520;transition:.25s;overflow:hidden}.gift:hover{transform:translateY(-8px) rotate(-1deg)}.gift img{width:100%;height:175px;object-fit:contain;mix-blend-mode:multiply;border-radius:15px}.gift h3{font:italic 30px 'Playfair Display';margin:7px}.gift p{font-size:13px}.gift span{display:inline-block;background:#e78aa5;color:white;padding:9px 22px;border-radius:25px;margin-top:8px}.mini{position:absolute;width:115px}.m1{left:8%;bottom:4%}.m2{right:8%;bottom:4%;transform:rotate(7deg)}.detail{min-height:calc(100vh - 66px)}.back{position:absolute;left:5vw;top:25px;z-index:5}.letter-page{background:linear-gradient(#f9e3e9bb,#f9e3e9bb),url('assets/img/bg-letter.webp') center/cover}.letter-layout{display:flex;align-items:center;justify-content:center;gap:25px;width:100%;margin-top:30px}.paper{background:#fffaf4 url('assets/img/letter-paper.webp') center/100% 100%;width:min(620px,90vw);min-height:470px;padding:clamp(28px,5vw,55px);box-shadow:0 15px 45px #87445835;transform:rotate(-1deg);line-height:1.9}.paper h2{font:36px Allura,cursive}.paper #letterText{white-space:pre-line;font:18px/1.9 'Playfair Display',serif;color:#77485a}.sign{text-align:right;font:26px Allura,cursive}.letter-pol{width:135px;flex-shrink:0}.lp1{transform:rotate(-8deg)}.lp2{transform:rotate(7deg)}.flower-page{background:linear-gradient(110deg,#fff3f4e8,#f7dce5d9),url('assets/img/bg-flowers.webp') center/cover}.flower-layout,.cake-layout{display:flex;align-items:center;justify-content:center;gap:clamp(20px,6vw,90px);width:min(1100px,95vw);margin-top:35px}.flower-copy,.cake-copy{max-width:430px}.flower-copy h2,.cake-copy h2{font-size:clamp(42px,5vw,65px)}.flower-copy>p:not(.eyebrow),.cake-copy>p:not(.eyebrow){font:18px/1.8 'Playfair Display',serif;color:#825365}.script{font:29px Allura,cursive!important;color:#bd5979!important}.bouquet-stage{width:min(510px,48vw);display:flex;align-items:center;flex-direction:column;position:relative}.bouquet-img{width:100%;height:570px;object-fit:contain;filter:drop-shadow(0 22px 22px #75405235);animation:bob 5s ease-in-out infinite}.bouquet-caption{font:26px Allura,cursive;color:#a24b68;margin-top:-12px}.flower-deco{position:absolute;top:12%;bottom:8%;width:70px;background:url('assets/img/deco-post-left.webp') center/contain repeat-y;opacity:.65;pointer-events:none}.flower-deco.left{left:0}.flower-deco.right{right:0;transform:scaleX(-1)}.cake-page{background:linear-gradient(110deg,#fff3f4e8,#f8dce5dd),url('assets/img/bg-cake.webp') center/cover}.cake-stage{position:relative;width:min(570px,52vw);display:grid;place-items:center}.real-cake{width:100%;max-height:540px;object-fit:contain;filter:drop-shadow(0 24px 25px #62384b45);animation:bob 5s ease-in-out infinite}.candle-flames{position:absolute;top:9%;font-size:38px;letter-spacing:18px;filter:drop-shadow(0 0 10px #ffbd69);transition:.3s}.candle-flames.off{opacity:0;transform:translateY(-25px) scale(.5)}.wish-copy{font:25px Allura,cursive!important;color:#b34e70!important}.sparkle{position:absolute;color:#d69b43;font-size:35px;animation:twinkle 1.7s infinite}.s1{top:18%;left:10%}.s2{right:10%;top:35%;animation-delay:.5s}.s3{bottom:15%;left:20%;animation-delay:1s}.modal{position:fixed;inset:0;background:#5e263b77;display:grid;place-items:center;z-index:10;padding:20px}.modal-box{background:#fff8f3;border-radius:24px;padding:30px;text-align:center;max-width:390px;box-shadow:0 15px 60px #64283c55}.modal-box h2{font:32px 'Playfair Display';color:#963f5b}.petal{position:fixed;top:-30px;z-index:4;pointer-events:none;animation:fall linear forwards;font-size:19px}@keyframes fall{to{transform:translate(var(--drift),110vh) rotate(480deg);opacity:.1}}@keyframes sway{0%,100%{translate:0 0;rotate:-2deg}50%{translate:0 -9px;rotate:2deg}}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}@keyframes twinkle{0%,100%{opacity:.3;transform:scale(.7)}50%{opacity:1;transform:scale(1.2)}}@media(max-width:800px){.p-home{width:95px}.p-a{left:1%;top:4%}.p-b{right:1%;top:4%}.hero-card{margin:80px 0}.gift-grid{grid-template-columns:1fr;max-width:340px}.gift{display:grid;grid-template-columns:110px 1fr;align-items:center;text-align:left}.gift img{grid-row:span 4;height:100px}.gift h3{font-size:25px}.gift p{margin:2px}.gift span{justify-self:start;margin-top:3px}.mini{display:none}.letter-layout{gap:5px}.letter-pol{width:85px}.paper{min-height:0;margin:30px 0;padding:25px}.paper #letterText{font-size:15px}.flower-layout,.cake-layout{flex-direction:column;text-align:center;margin-top:60px;gap:5px}.flower-copy,.cake-copy{max-width:550px}.bouquet-stage,.cake-stage{width:min(460px,92vw)}.bouquet-img{height:390px}.real-cake{max-height:380px}.flower-deco{width:25px}.count{gap:12px}.count b{font-size:25px}.back{top:12px;left:15px}}
+
+/* Soft blush redesign + phone-friendly letter */
+.gift img { background:linear-gradient(145deg,#fff8f7,#f8dce5); mix-blend-mode:normal; padding:8px; }
+.gift { background:rgba(255,250,248,.96); }
+.letter-page {
+  background:
+    radial-gradient(ellipse at 15% 20%,rgba(255,255,255,.85),transparent 42%),
+    radial-gradient(ellipse at 85% 80%,rgba(255,220,231,.75),transparent 45%),
+    linear-gradient(135deg,#f9e8ed,#f3d2df 55%,#fff4f3);
+}
+.paper {
+  background:linear-gradient(145deg,#fffdfa,#fff7f4);
+  border:1px solid #e9b6c5;
+  border-radius:8px;
+  width:min(650px, calc(100% - 30px));
+  min-height:0;
+  padding:clamp(30px,5vw,58px);
+  box-shadow:0 18px 48px rgba(151,75,101,.16);
+  transform:none;
+}
+.paper h2 { font-size:clamp(32px,4vw,42px); }
+.paper #letterText { font-size:clamp(16px,1.5vw,19px); line-height:1.85; }
+.flower-page {
+  background:
+   radial-gradient(circle at 15% 20%,#fffaf8 0,transparent 35%),
+   linear-gradient(135deg,#fff3f5,#f8dce5 55%,#fcecf0);
+}
+.bouquet-stage { padding:12px; border-radius:48% 48% 28px 28px; background:radial-gradient(ellipse,#fffaf8 0%,#f9e3e9 65%,transparent 70%); }
+.bouquet-img { height:560px; object-fit:contain; filter:drop-shadow(0 18px 18px rgba(160,75,105,.18)); }
+.cake-page {
+ background:radial-gradient(ellipse at 70% 35%,#fffaf7,#f8e0e8 55%,#f3d2df);
+}
+.cake-stage { padding:22px; border-radius:50%; background:radial-gradient(ellipse,#fffaf7 0%,#f7dce5 68%,transparent 70%); }
+.cake-copy, .flower-copy { position:relative; z-index:1; }
+@media(max-width:800px) {
+ .detail { min-height:calc(100dvh - 58px); padding:64px 14px 34px; }
+ .letter-layout { display:block; width:100%; margin:12px auto 0; }
+ .letter-pol { display:none; }
+ .paper { width:100%; margin:0 auto; padding:27px 23px; border-radius:16px; }
+ .paper .eyebrow { letter-spacing:.2em; }
+ .paper h2 { line-height:1.15; margin:12px 0 20px; }
+ .paper #letterText { font-size:16px; line-height:1.8; overflow-wrap:anywhere; }
+ .paper .sign { margin-top:22px; }
+ .bouquet-stage { width:min(390px,94vw); }
+ .bouquet-img { height:350px; }
+ .cake-page .cake-layout { margin-top:25px; }
+}
+@media(max-width:390px) {
+ .top { padding:0 12px; font-size:9px; letter-spacing:.14em; }
+ .music { padding:8px 11px; }
+ .paper { padding:23px 18px; }
+ .paper #letterText { font-size:15px; line-height:1.75; }
+ .paper h2 { font-size:30px; }
+ .back { font-size:12px; }
+}
+
+
+/* SIX POLAROIDS: four above the first-page greeting, two below the gift choices */
+.hero {
+  overflow: hidden;
+  justify-content: flex-start;
+  padding-top: 18px;
+}
+.home-polaroids {
+  position: relative;
+  z-index: 3;
+  width: min(900px, 96%);
+  height: 142px;
+  flex: 0 0 142px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  pointer-events: none;
+}
+.p-home {
+  position: relative;
+  inset: auto;
+  width: clamp(88px, 11vw, 132px);
+  margin: 0;
+  pointer-events: auto;
+}
+.p-home img {
+  aspect-ratio: 4 / 4.4;
+}
+.p-a { transform: rotate(-9deg); }
+.p-b { transform: rotate(7deg); margin-top: 13px; }
+.p-c { transform: rotate(-6deg); margin-top: 4px; }
+.p-d { transform: rotate(9deg); margin-top: 15px; }
+.hero-card {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto 28px;
+}
+#home {
+  min-height: calc(100vh - 66px);
+}
+#home .polaroid figcaption {
+  font-size: clamp(15px, 1.7vw, 21px);
+}
+#home .hero-card {
+  flex-shrink: 0;
+}
+
+#home .hero-card .intro br {
+  display: none;
+}
+#home .hero-card .intro {
+  max-width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home .home-polaroids .polaroid {
+  background: #fffdf9;
+  border: 1px solid #f4dce3;
+}
+
+#home .home-polaroids .polaroid img,
+#gifts .gift-polaroids .polaroid img {
+  object-fit: cover;
+}
+
+#gifts { 
+  justify-content: flex-start;
+  padding-top: 38px;
+  padding-bottom: 35px;
+}
+.gift-polaroids {
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(28px, 8vw, 100px);
+  width: 100%;
+  margin: 4px auto 0;
+  padding: 8px 0 18px;
+}
+.gift-polaroids .mini {
+  position: relative;
+  inset: auto;
+  display: block;
+  width: clamp(105px, 13vw, 145px);
+  margin: 0;
+}
+.gift-polaroids .m1 { transform: rotate(-8deg); }
+.gift-polaroids .m2 { transform: rotate(8deg); }
+.gift-polaroids .polaroid img { aspect-ratio: 4 / 4.3; }
+
+@media (min-width: 801px) {
+  .home-polaroids { height: 158px; flex-basis: 158px; }
+  #home .hero-card { width: min(620px, 82vw); }
+  #gifts .section-head { margin-top: 8px; }
+}
+@media (max-width: 800px) {
+  #home {
+    padding: 12px 12px 34px;
+    min-height: calc(100dvh - 58px);
+  }
+  .home-polaroids {
+    width: 100%;
+    height: 104px;
+    flex-basis: 104px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .p-home {
+    width: clamp(66px, 18vw, 82px);
+    padding: 6px 6px 0;
+  }
+  .p-home img { aspect-ratio: 1 / 1.08; }
+  .p-home figcaption {
+    font-size: 13px !important;
+    padding: 4px 0 5px;
+    white-space: nowrap;
+  }
+  .p-b, .p-d { margin-top: 8px; }
+  .hero-card {
+    width: min(100%, 560px);
+    padding: 25px 17px;
+    margin: 0 auto 18px;
+  }
+  .hero h1 { font-size: clamp(37px, 10vw, 48px); }
+  .hero .sub { font-size: 36px; }
+  .hero .intro { font-size: 14px; }
+  .hero .count { gap: clamp(7px, 3vw, 13px); }
+  .hero .count div { min-width: 52px; }
+  #gifts {
+    padding: 35px 14px 28px;
+    min-height: calc(100dvh - 58px);
+  }
+  #gifts .section-head { padding: 0 8px; }
+  #gifts .section-head h2 { font-size: clamp(31px, 8vw, 42px); }
+  #gifts .gift-grid {
+    grid-template-columns: 1fr;
+    width: min(100%, 360px);
+    gap: 13px;
+    margin: 20px auto 14px;
+  }
+  #gifts .gift {
+    min-height: 126px;
+    grid-template-columns: 105px 1fr;
+    padding: 10px 12px;
+  }
+  #gifts .gift img { height: 100px; }
+  .gift-polaroids {
+    gap: 28px;
+    margin-top: 2px;
+    padding-bottom: 12px;
+  }
+  .gift-polaroids .mini {
+    width: clamp(105px, 31vw, 130px);
+    padding: 7px 7px 0;
+  }
+  .gift-polaroids .polaroid img { aspect-ratio: 1 / 1.05; }
+  .gift-polaroids .polaroid figcaption {
+    font-size: 17px;
+    padding: 5px 0 7px;
+  }
+}
+@media (max-width: 360px) {
+  .home-polaroids { height: 92px; flex-basis: 92px; }
+  .p-home { width: 62px; }
+  .p-home figcaption { font-size: 11px !important; }
+  .hero-card { padding: 21px 12px; }
+  .gift-polaroids { gap: 20px; }
+}
+
+
+/* FINAL HOME LAYOUT: four polaroids frame the page at its four corners.
+   They are absolutely positioned so they never create a row below the greeting. */
+#home {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: calc(100vh - 66px);
+  padding: 38px 18px;
+  justify-content: center;
+}
+#home .home-polaroids {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  display: block;
+  width: auto;
+  height: auto;
+  flex: none;
+  margin: 0;
+  pointer-events: none;
+}
+#home .home-polaroids .p-home {
+  position: absolute;
+  display: block;
+  width: clamp(94px, 10vw, 132px);
+  margin: 0;
+  padding: 9px 9px 0;
+  pointer-events: auto;
+  background: #fffdf9;
+  border: 1px solid #f1d7df;
+  box-shadow: 0 10px 25px rgba(119,56,74,.22);
+}
+#home .home-polaroids .p-home img {
+  width: 100%;
+  aspect-ratio: 1 / 1.05;
+  object-fit: cover;
+}
+#home .home-polaroids .p-home figcaption {
+  font-size: clamp(14px, 1.5vw, 19px);
+  padding: 5px 0 8px;
+  white-space: nowrap;
+}
+#home .home-polaroids .p-a {
+  left: 2.5%;
+  top: 4%;
+  transform: rotate(-9deg);
+}
+#home .home-polaroids .p-b {
+  right: 2.5%;
+  top: 4%;
+  transform: rotate(8deg);
+}
+#home .home-polaroids .p-c {
+  left: 2.5%;
+  bottom: 4%;
+  top: auto;
+  transform: rotate(7deg);
+}
+#home .home-polaroids .p-d {
+  right: 2.5%;
+  bottom: 4%;
+  top: auto;
+  transform: rotate(-8deg);
+}
+#home .hero-card {
+  position: relative;
+  z-index: 2;
+  width: min(640px, 82vw);
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+/* The gift page keeps its two polaroids, neatly framing the gift choices. */
+#gifts {
+  position: relative;
+  overflow: hidden;
+  padding: 40px 5vw 35px;
+}
+#gifts .gift-grid {
+  position: relative;
+  z-index: 2;
+}
+#gifts .gift-polaroids {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(35px, 7vw, 90px);
+  margin: 18px auto 0;
+  padding: 0 0 12px;
+}
+#gifts .gift-polaroids .mini {
+  position: relative;
+  display: block;
+  width: clamp(105px, 11vw, 132px);
+  margin: 0;
+}
+#gifts .gift-polaroids .m1 { transform: rotate(-8deg); }
+#gifts .gift-polaroids .m2 { transform: rotate(8deg); }
+
+@media (max-width: 800px) {
+  #home {
+    min-height: calc(100dvh - 58px);
+    padding: 24px 8px;
+  }
+  #home .home-polaroids .p-home {
+    width: clamp(66px, 18vw, 78px);
+    padding: 6px 6px 0;
+  }
+  #home .home-polaroids .p-home img {
+    aspect-ratio: 1 / 1.03;
+  }
+  #home .home-polaroids .p-home figcaption {
+    font-size: clamp(10px, 2.8vw, 13px);
+    padding: 4px 0 6px;
+    letter-spacing: -.02em;
+  }
+  #home .home-polaroids .p-a { left: 1%; top: 3%; }
+  #home .home-polaroids .p-b { right: 1%; top: 3%; }
+  #home .home-polaroids .p-c { left: 1%; bottom: 3%; }
+  #home .home-polaroids .p-d { right: 1%; bottom: 3%; }
+  #home .hero-card {
+    width: calc(100% - 18px);
+    margin: 0 auto;
+    padding: 100px 18px 98px;
+  }
+  #home .hero h1 { font-size: clamp(35px, 9vw, 46px); }
+  #home .hero .sub { font-size: clamp(34px, 9vw, 40px); }
+  #home .hero .intro { font-size: 14px; line-height: 1.65; }
+  #home .count { gap: clamp(7px, 2.5vw, 12px); }
+  #home .count div { min-width: 50px; }
+  #home .count b { font-size: 25px; }
+  #gifts {
+    padding: 34px 13px 28px;
+    min-height: calc(100dvh - 58px);
+  }
+  #gifts .gift-grid {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    width: 100%;
+    gap: 13px;
+    margin: 20px auto 10px;
+  }
+  #gifts .gift-polaroids {
+    gap: 28px;
+    margin-top: 12px;
+  }
+  #gifts .gift-polaroids .mini {
+    width: clamp(105px, 31vw, 128px);
+    padding: 7px 7px 0;
+  }
+}
+@media (max-width: 360px) {
+  #home .hero-card { padding: 92px 13px 90px; }
+  #home .home-polaroids .p-home { width: 62px; }
+  #home .home-polaroids .p-home figcaption { font-size: 10px; }
+}

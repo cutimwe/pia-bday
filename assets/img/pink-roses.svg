@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 650">
+<defs>
+ <linearGradient id="wrap" x2="0" y2="1"><stop stop-color="#fff8f4"/><stop offset="1" stop-color="#e9a9bb"/></linearGradient>
+ <linearGradient id="ribbon" x2="1" y2="1"><stop stop-color="#f4a5bd"/><stop offset="1" stop-color="#bd5578"/></linearGradient>
+ <radialGradient id="petal"><stop stop-color="#ffd1dc"/><stop offset=".72" stop-color="#ee8da9"/><stop offset="1" stop-color="#c95378"/></radialGradient>
+ <g id="rose">
+  <g fill="url(#petal)" stroke="#c65a7c" stroke-width="2">
+   <ellipse cy="-25" rx="18" ry="28"/><ellipse cy="-25" rx="18" ry="28" transform="rotate(60)"/><ellipse cy="-25" rx="18" ry="28" transform="rotate(120)"/>
+   <ellipse cy="-25" rx="18" ry="28" transform="rotate(180)"/><ellipse cy="-25" rx="18" ry="28" transform="rotate(240)"/><ellipse cy="-25" rx="18" ry="28" transform="rotate(300)"/>
+   <circle r="18" fill="#d9577e"/><path d="M-10 0 Q-4 -15 9 -8 Q18 2 3 11 Q-8 13 -10 0" fill="#f7afc2"/>
+  </g>
+ </g>
+</defs>
+<!-- leaves -->
+<g fill="#789b78" stroke="#547e61" stroke-width="3">
+ <path d="M270 365Q110 260 85 160Q225 195 290 330Z"/><path d="M345 360Q470 205 540 190Q510 315 365 390Z"/>
+ <path d="M300 365Q240 175 290 85Q355 215 325 370Z"/><path d="M230 385Q90 340 55 270Q180 275 260 370Z"/>
+</g>
+<!-- roses -->
+<g>
+ <use href="#rose" transform="translate(180 235) scale(1.25)"/><use href="#rose" transform="translate(290 180) scale(1.35)"/>
+ <use href="#rose" transform="translate(405 235) scale(1.25)"/><use href="#rose" transform="translate(235 330) scale(1.35)"/>
+ <use href="#rose" transform="translate(350 330) scale(1.4)"/><use href="#rose" transform="translate(125 335) scale(1.0)"/>
+ <use href="#rose" transform="translate(465 335) scale(1.0)"/>
+</g>
+<!-- bouquet wrap -->
+<path d="M100 365Q310 455 520 365L420 570Q310 625 200 570Z" fill="url(#wrap)" stroke="#d98ca5" stroke-width="4"/>
+<path d="M100 365Q310 455 520 365L310 475Z" fill="#fffaf8" opacity=".85"/>
+<path d="M285 475L250 625L310 585L370 625L335 475Z" fill="#e7a0b5" stroke="#cb718e" stroke-width="3"/>
+<path d="M250 490Q310 535 370 490Q355 565 310 565Q265 565 250 490Z" fill="url(#ribbon)" stroke="#bd5578" stroke-width="3"/>
+<circle cx="310" cy="525" r="22" fill="#f7c0ce" stroke="#bd5578" stroke-width="4"/>
+<path d="M370 555L460 575L440 620L350 592Z" fill="#fff4e9" stroke="#d6a0a9" stroke-width="3"/>
+<text x="405" y="595" font-family="Georgia" font-size="17" fill="#9b5269" text-anchor="middle">for you ♡</text>
+</svg>
